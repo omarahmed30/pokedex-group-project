@@ -1,22 +1,28 @@
+
+$font:'Press Start 2P', cursive ;
+
 #navTitle {
   font-size: 2.3em;
-  text-align: center; }
+  text-align: center;
+}
 
 body {
-  font-family: "Press Start 2P", cursive;
+  font-family: $font;
   background-image: url("/Users/kevinhesse/Desktop/pokedex-group-project/assests/images/background.png");
   background-repeat: no-repeat;
-  background-size: auto; }
+  background-size: auto;
+}
 
-.card {
+.card{
   margin-top: 3.8em;
-  padding-top: 2em; }
+  padding-top: 2em;
+}
 
 .card .card-title {
-  font-size: 1em; }
+  font-size: 1em;
+}
 
-.shiny-button {
+.shiny-button{
   height: 50px;
-  margin-top: 115px; }
-
-/*# sourceMappingURL=main.css.map */
+margin-top: 115px;
+}
