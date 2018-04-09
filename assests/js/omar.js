@@ -45,9 +45,9 @@ class TrainerOmar {
     }
 }
 
-// let pokemonPikachu = new Pokemoon("pikachu")
+let pokemonPikachu = new Pokemoon("pikachu")
 let pokemonPignite = new Pokemoon("pignite")
-// let pokemonPikipek = new Pokemoon("pikipek")
+let pokemonPikipek = new Pokemoon("pikipek")
 
 let omar = new TrainerOmar()
 // omar.add(pokemonPikachu)
@@ -102,27 +102,26 @@ function getAbilities(pokemon){
 
  function callingObjects(pmon) {
     let ul
-    if (pmon.id == 499){
+    if ( pmon.id == 25) {
+        ul = document.querySelector("#pikachu")
+    }
+    else if (pmon.id == 499){
         ul = document.querySelector("#pignite") 
     }
-// Creating list of li tag and appending information on them
-    let nameAndImgList = document.createElement("li")
-    let statList = document.createElement("li")
+    else if (pmon.id == 731){
+        ul = document.querySelector("#pikipek")
+    }
 
 // Appending name to the nameAndImgList li
     let name = document.createElement("li")
     name.innerHTML =  pmon.name
     ul.appendChild(name)
-    //nameAndImgList.appendChild(name)
 
-// Calling image function to get the image url and appending it to li
-   // let image = getImageUrl(pmon)
-   // nameAndImgList.appendChild(image)
 
 // HP, Attack, Defense and Abilites information being retrieved and append to statList li
-    // let hp = document.createElement("li")
-    // hp.innerHTML =  " Hit point: " + pmon.stats[5].base_stat
-    // statList.appendChild(hp)
+    let hp = document.createElement("li")
+    hp.innerHTML =  " Hit point: " + pmon.stats[5].base_stat
+    ul.appendChild(hp)
 
     // let attack = document.createElement("p")
     // attack.innerHTML = " Attack power: " + pmon.stats[4].base_stat
