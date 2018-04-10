@@ -1,18 +1,3 @@
-// let interval = setInterval(areYouReadyKids,1500);
-
-// function areYouReadyKids(){
-//     console.log("checking");
-//     if (kevinKetchum.all.length === 3  && omar.pokemonList.length===3){
-//         console.log("shit is working.")
-//         runEverythingElse();
-//     }
-// }
-
-
-// function runEverythingElse(){
-//     clearInterval(interval);
-//     console.log("shit is working, put your code here");
-// }
 
 let pokemonPikachu = new Pokemoon("pikachu")
 let pokemonPignite = new Pokemoon("pignite")
@@ -106,23 +91,11 @@ function getAbilities(pokemon){
     let hp = document.createElement("li")
     hp.innerHTML =  "hp: " + pmon.stats[5].base_stat
     ul.appendChild(hp)
-
-    
-
-    
-
-      
-//[pmon.abilities[0].ability.name + ",  " + pmon.abilities[1].ability.name]
-    
-
-
-// Maintaing a background with specific Pookemon regardles of who's information return first from the API    
-   
     }
 
 
 
-    // Kevin Code is below
+  // Kevin Code is below
 
   let charmeleon
   let ul = document.querySelector("ul")

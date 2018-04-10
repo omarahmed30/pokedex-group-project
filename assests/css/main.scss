@@ -8,14 +8,13 @@ $font:'Press Start 2P', cursive ;
 
 body {
   font-family: $font;
-  background-image: url("assests/images/background.png");
-  background-repeat: no-repeat;
-  background-size: cover;
+  background-image: url("/Users/kevinhesse/Desktop/pokedex-group-project/assests/images/balltypes.webp");  
 }
 
 .card{
   margin-top: 3.8em;
   padding-top: 2em;
+  background-color:#fffe6a;
 }
 
 .card .card-title {
@@ -26,3 +25,18 @@ body {
   height: 50px;
 margin-top: 115px;
 }
+
+#navLogo {
+  background-color: #7DACDB;
+  color: yellow;
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 30px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+ }
+
+ .card .card-reveal {
+   background-color: #7dacdb;
+ }
+

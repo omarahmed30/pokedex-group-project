@@ -3,14 +3,12 @@ const POKEMON_IMAGE_URL = "https://assets.pokemon.com/assets/cms2/img/pokedex/fu
 let uls = document.getElementsByTagName("ul")
 let divs = document.getElementsByTagName("div")
 
-
 class Pokemoon {
     constructor(name) {
         let that = this
         let linksArray = []
         let pokemoon = []
         linksArray.push(POKEMON_URL + name)
-
         for (let i = 0; i < linksArray.length; i++) {
             axios.get(linksArray[i])
                 .then((response) => {
@@ -23,7 +21,6 @@ class Pokemoon {
         }
     }
 }
-
 class TrainerOmar {
     constructor() {
         this.pokemonList = []
