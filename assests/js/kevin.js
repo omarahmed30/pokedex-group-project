@@ -1,4 +1,6 @@
 
+
+
 //create a class to contain selected api info
 class KevinKetchum {
   constructor () {
@@ -12,7 +14,6 @@ class KevinKetchum {
 get(name) {
   return this.all.find(pokemon => pokemon.name == name)
   }
-}
 
   class Pokemon {
     constructor(name, attack, defense, abilities,hp) {
@@ -65,6 +66,8 @@ get(name) {
     ul.appendChild(abilities)
     ul.appendChild(hp)
 
+  
+
   }).catch((error) => {
      console.log(error)
   })
@@ -110,6 +113,7 @@ get(name) {
       ul.appendChild(abilities)
       ul.appendChild(hp)
 
+      
   }).catch((error) => {
      console.log(error)
    })
@@ -158,8 +162,14 @@ get(name) {
       console.log(error)
     })
 
+  get(name) {}
+
   //button click event
-  let button = document.querySelector(".shiny-button")
-  button.addEventListener("click", event => {
-    window.location.href = "shiny.html"
-})
+  // let button = document.querySelector(".shiny-button")
+  // button.addEventListener("click", event => {
+  //   window.location.href = "shiny.html"
+// })
+
+//console.log(pokemon(name))
+
+ 
