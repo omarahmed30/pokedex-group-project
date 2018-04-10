@@ -4,9 +4,7 @@
 
 body {
   font-family: "Press Start 2P", cursive;
-  background-image: url("/Users/kevinhesse/Desktop/pokedex-group-project/assests/images/yelloe.jpg");
-  background-repeat: no-repeat;
-  background-size: cover; }
+  background-image: url("/Users/kevinhesse/Desktop/pokedex-group-project/assests/images/pokeball.png"); }
 
 .card {
   margin-top: 3.8em;
