@@ -4,7 +4,7 @@
 
 body {
   font-family: "Press Start 2P", cursive;
-  background-image: url("/Users/kevinhesse/Desktop/pokedex-group-project/assests/images/balltypes.webp"); }
+  background-image: url("../../assests/images/balltypes.jpeg"); }
 
 .card {
   margin-top: 3.8em;
