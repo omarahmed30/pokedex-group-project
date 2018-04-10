@@ -8,22 +8,13 @@ $font:'Press Start 2P', cursive ;
 
 body {
   font-family: $font;
-  background-image: url("/Users/kevinhesse/Desktop/pokedex-group-project/assests/images/balltypes.webp");
-  // background-image: url("/Users/kevinhesse/Desktop/pokedex-group-project/assests/images/game.png");
-  // background-repeat: no-repeat;
-  // background-size: cover;
-  
+  background-image: url("/Users/kevinhesse/Desktop/pokedex-group-project/assests/images/balltypes.webp");  
 }
 
 .card{
   margin-top: 3.8em;
   padding-top: 2em;
-  // background-image: url("/Users/kevinhesse/Desktop/pokedex-group-project/assests/images/yelloe.jpg");
   background-color:#fffe6a;
-  // background-color: #7DACDB;
-  
-  
- 
 }
 
 .card .card-title {
@@ -45,21 +36,7 @@ margin-top: 115px;
   padding-bottom: 20px;
  }
 
-//  .parallax {
-//   /* The image used */
-//   background-image: url("/Users/kevinhesse/Desktop/pokedex-group-project/assests/images/balltypes.webp");
-//   /* Full height */
-//   height: 800px;
-//   /* Create the parallax scrolling effect */
-//   background-attachment: fixed;
-//   background-position: center;
-//   background-repeat: no-repeat;
-//   background-size: cover;
-// }
-
-
-// #background {
-//   background-color:#7DACDB ;
-
-// }
+ .card .card-reveal {
+   background-color: #7dacdb;
+ }
 
