@@ -25,8 +25,4 @@ get(name) {
     }
   }
 
-  //button click event
-//   let button = document.querySelector(".shiny-button")
-//   button.addEventListener("click", event => {
-//     window.location.href = "shiny.html"
-// })
+
