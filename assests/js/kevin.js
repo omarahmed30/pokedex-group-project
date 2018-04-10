@@ -24,6 +24,7 @@ get(name) {
     }
   }
 
+  let charmeleon
   let ul = document.querySelector("ul")
   let kevinKetchum = new KevinKetchum()
 
@@ -39,7 +40,7 @@ get(name) {
     let hp= document.createElement("li")
     let data = response.data
 
-    let charmeleon = new Pokemon(
+    charmeleon = new Pokemon(
       data.name,
       data.stats[4].base_stat,
       data.stats[3].base_stat,
@@ -159,7 +160,7 @@ get(name) {
     })
 
   //button click event
-  let button = document.querySelector(".shiny-button")
-  button.addEventListener("click", event => {
-    window.location.href = "shiny.html"
-})
+//   let button = document.querySelector(".shiny-button")
+//   button.addEventListener("click", event => {
+//     window.location.href = "shiny.html"
+// })
