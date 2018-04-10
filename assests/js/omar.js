@@ -50,9 +50,9 @@ let pokemonPignite = new Pokemoon("pignite")
 let pokemonPikipek = new Pokemoon("pikipek")
 
 let omar = new TrainerOmar()
-// omar.add(pokemonPikachu)
+omar.add(pokemonPikachu)
 omar.add(pokemonPignite)
-// omar.add(pokemonPikipek)
+omar.add(pokemonPikipek)
 
 
 function getImageUrl(pokemon) {
@@ -120,20 +120,21 @@ function getAbilities(pokemon){
 
 // HP, Attack, Defense and Abilites information being retrieved and append to statList li
     let hp = document.createElement("li")
-    hp.innerHTML =  " Hit point: " + pmon.stats[5].base_stat
+    hp.innerHTML =  "Hit point: " + pmon.stats[5].base_stat
     ul.appendChild(hp)
 
-    // let attack = document.createElement("p")
-    // attack.innerHTML = " Attack power: " + pmon.stats[4].base_stat
-    // statList.appendChild(attack)
+    let attack = document.createElement("li")
+    attack.innerHTML = "Attack power: " + pmon.stats[4].base_stat
+    ul.appendChild(attack)
 
-    // let defense = document.createElement("p")
-    // defense.innerHTML = " Defense power: " + pmon.stats[3].base_stat
-    // statList.appendChild(defense)
+    let defense = document.createElement("p")
+    defense.innerHTML = "Defense power: " + pmon.stats[3].base_stat
+    ul.appendChild(defense)
 
-    // let pokemonAbilities = getAbilities(pmon)
-    // let abilities = document.createElement("p")
-    // abilities.innerHTML = " Abilities are: " +  pokemonAbilities[0] + ", " + pokemonAbilities[1]   
+    let pokemonAbilities = getAbilities(pmon)
+    let abilities = document.createElement("li")
+    abilities.innerHTML = " Abilities are: " + "<br>" +  pokemonAbilities[0] + ", " + pokemonAbilities[1] 
+    ul.appendChild(abilities)  
 //[pmon.abilities[0].ability.name + ",  " + pmon.abilities[1].ability.name]
     
 
