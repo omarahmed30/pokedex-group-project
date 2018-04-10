@@ -4,11 +4,12 @@
 
 body {
   font-family: "Press Start 2P", cursive;
-  background-image: url("/Users/kevinhesse/Desktop/pokedex-group-project/assests/images/pokeball.png"); }
+  background-image: url("/Users/kevinhesse/Desktop/pokedex-group-project/assests/images/balltypes.webp"); }
 
 .card {
   margin-top: 3.8em;
-  padding-top: 2em; }
+  padding-top: 2em;
+  background-color: #FFDE17; }
 
 .card .card-title {
   font-size: 1em; }
@@ -16,5 +17,14 @@ body {
 .shiny-button {
   height: 50px;
   margin-top: 115px; }
+
+#navLogo {
+  background-color: #7DACDB;
+  color: #FFFE6A;
+  text-align: center;
+  font-size: 48px;
+  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px; }
 
 /*# sourceMappingURL=main.css.map */
